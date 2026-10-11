@@ -1,0 +1,22 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment and cache
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+
+# Project-specific exclusions
+agent.py
+module01/s10_matrix_output.md
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
